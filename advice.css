@@ -1,0 +1,57 @@
+@font-face{
+ font-family: "Manrope";
+ src: url('./Manrope-VariableFont_wght.ttf');
+}
+
+/* color*/
+ :root{
+  --primary-cyan:hsl(193, 38%, 86%);
+  --primary-neon:hsl(150, 100%, 66%);
+  --neutral-GB:hsl(217, 19%, 38%);
+  --neutral-DGB:hsl(217, 19%, 24%);
+  --neutral-DB:hsl(218, 23%, 16%);
+ }
+
+body{
+  background: var(--neutral-DB);
+  font-family:"Manrope";
+}
+
+.wrapper{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ background: var(--neutral-DGB);
+ margin: 6rem 0.75em;
+ border-radius: 16px;
+ position: relative;
+}
+
+.advice-id{
+  color: var(--primary-neon);
+}
+.quote{
+ font-size: 28px;
+ font-weight: 800;
+ color: var(--primary-cyan);
+ padding: 0.5em;
+}
+
+.divider{
+ max-width: 95%;
+ margin-bottom: 4rem;
+}
+.dice-btn{
+ width: 4rem ;
+ height:4rem;
+ margin:  92% 39%;
+ background-color: var(--primary-neon);
+ border-radius: 50%;
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.dice-btn:hover{
+ box-shadow:0 0 10px 10px rgb(82, 255, 168, 0.4);
+}
